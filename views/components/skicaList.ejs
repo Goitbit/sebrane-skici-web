@@ -1,0 +1,18 @@
+<div class="skicaList">
+  <% skici.forEach(skica => { %>
+    <div class="skicaBlock js-skica-item" data-id="<%= skica.id %>" data-tags="<%= (skica.tags || []).join(',') %>">
+      
+      <a href="/<%= skica.id %>" class="skica-card-link">
+        
+        <div class="skica-img-wrapper">
+          <img src="<%= skica.img %>" loading="lazy" alt="<%= skica.title %>">
+        </div>
+
+        <p class="skicaBlockId">#<%= skica.id %></p>
+        <p class="skicaBlockTitle"><%= skica.title %></p>
+
+      </a>
+
+    </div>
+  <% }) %>
+</div>

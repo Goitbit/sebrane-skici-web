@@ -1,0 +1,525 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+:root {
+    --main-bg-color: #f3e9d2;
+    --navBtn-color: #c3baae;
+    --navBtn-hover-color: #908780;
+    --chip-color: #cfcac5;
+    --filterBtn-color: #d2d2d2;
+    --filterBtn-hover-color: #bebebe;
+    --skicaBlock-color:  #c1baa6;
+    --skicaBlock-hover-color:  #92816c;
+    --accent: #8b5cf6;       /* Fialová pro aktivní prvky */    
+    --searchbar-bg: #92816c;
+    --footer-bg:  #7a6a57;
+}
+
+body {
+    background-color: var(--main-bg-color);
+    color:black;
+    font-family: Patrick Hand, Helvetica, sans-serif;
+    letter-spacing: 0.08em;       /* Roztáhne písmena od sebe */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5;
+    margin: 0;    
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+main {
+    flex: 1;
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 1rem;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;     
+    
+ 
+    min-height: calc(100vh - 120px); 
+}
+
+.navbutton {
+    background-color: #c3baae;
+    color:black;
+    transition: background-color 0.2s ease-in-out ;
+}
+
+.navbutton:hover {
+    cursor: pointer;
+    background-color: #9d9080;
+}
+
+.disabled {
+    pointer-events: none;
+    opacity: .4;
+    cursor: default;
+}
+
+/*      NAVBAR               */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1.5rem; 
+    background-color: var(--main-bg-color);
+    padding: 1rem; /* Zmenšený okraj pro mobily */
+    border-bottom: 2px solid #564c40;
+    width: 100%;
+    box-sizing: border-box; 
+    flex-wrap: wrap; 
+}
+
+/* LOGO STRÁNKY */
+
+header a:first-child {
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    font-weight: normal; 
+    padding: 0.2rem 0.8rem;
+    
+    background: #e1ded7;
+    color: #1a1a1a;
+    border: 1px solid #b8b3a9;
+    box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15);
+    transform: rotate(-1deg); 
+}
+
+header a:first-child:hover {
+    transform: rotate(2deg); 
+}
+
+/* TLAČÍTKA V NAVBARU */
+
+header a:not(:first-child) {
+    color: #1a1a1a;
+    text-decoration: none;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    padding: 0.4rem 1.2rem;
+    border-radius: 0.6rem;
+    border: 2px solid transparent; 
+    transition: all 0.2s ease;
+}
+
+header a:not(:first-child):hover {
+    border-color: #9d9080;
+    background-color: rgba(195, 186, 174, 0.3); 
+}
+
+header a.active {
+    background-color: var(--navBtn-color); 
+    border: 2px solid #92816c;         
+    pointer-events: none;              
+}
+
+/* STRÁNKA S KOMIKSEM */
+
+/* HLAVNÍ KONTEJNER DETAILU */
+.skica-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    max-width: 800px;    
+    margin: 0 auto;
+}
+
+/* HLAVIČKA (Nadpis a číslo) */
+.skica-header {
+    text-align: center;
+    margin-top: 0.5rem;    /* Malá, kontrolovaná mezera od hlavního navbaru */
+    margin-bottom: 1rem;   /* Mezera směrem dolů k tlačítkům */
+    padding: 0 !important; /* !important pojistí, že se ignoruje padding z hlavního navbaru */
+    border: none;
+    display: block; 
+}
+
+.skica-header h1 {
+    margin: 0;             /* KLÍČOVÉ: Vynuluje obří výchozí margin, který má h1 v prohlížeči */
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    color: var(--foreground, #1a1a1a);
+    line-height: 1.1;
+}
+
+#skicaNum {
+    font-size: 1.2rem;
+    color: var(--skicaBlock-hover-color); 
+    font-weight: bold;
+}
+
+/* OBAL PRO NAVIGACI (Tlačítka) */
+.skica-nav { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75rem; 
+    width: 100%;
+}
+
+.skica-nav a {
+    display: inline-block;
+    transition: transform 0.1s ease;
+    cursor: pointer; 
+}
+
+.skica-nav a img {
+    width: 60px;   
+    height: auto;  
+    display: block;
+}
+
+.skica-nav a:hover { 
+    transform: translateY(-1px);
+    filter:sepia(0.3) brightness(0.8);
+}
+
+@media (max-width: 600px) {
+    .skica-nav {
+        gap: 0.5rem;
+    }
+    .skica-nav a img {
+        width: 45px; /* Na mobilu se tlačítka přirozeně zmenší, aby se vešla vedle sebe */
+    }
+}
+
+
+/* SAMOTNÝ RÁM OBRÁZKU */
+.skica-frame {
+    background-color: white; 
+    border: 3px solid black;  
+    margin-bottom: 1rem;
+    margin-top: 1rem;    
+    padding: 1rem;            
+    border-radius: 0.5rem;
+    box-shadow: 6px 6px 0px 0px rgba(0, 0, 0, 0.15); 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.skica-frame img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 0.2rem;
+}
+
+/* RESPONSIVITA PRO MOBILY */
+@media (max-width: 600px) {
+    .skica-header h1 {
+        font-size: 1.8rem; 
+    }
+    
+    .skica-frame {
+        padding: 0.5rem; 
+        border-width: 2px;
+    }
+
+    .skica-nav a { 
+        padding: 0.6rem 1.4rem;
+        font-size: 1.4rem;
+    }
+}
+
+.skica-desc {
+    background-color: white; 
+    border: 3px solid black;  
+    padding: 1rem;            
+    border-radius: 0.5rem;
+    box-shadow: 6px 6px 0px 0px rgba(0, 0, 0, 0.15); 
+    width: 100%;
+}
+
+.skica-tags {
+    background-color: var(--skicaBlock-color);
+    border-radius: 0.8rem;
+    padding: 0.5rem;
+}
+
+.skica-tags .chip {
+    text-decoration: none;
+    color: black;
+    transition: all 0.2s ease;
+}
+
+.skica-tags .chip:hover {
+    background-color: var(--skicaBlock-hover-color);
+    color: white;
+    transform: translateY(-1px);
+}
+
+/* ARCHIV */
+
+.skicaList {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 1.5rem;
+  width: 100%; 
+}
+
+@media (min-width: 768px) {
+  .skicaList {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.skicaBlock {
+    background-color: var(--skicaBlock-color);
+    padding: 1rem;
+    transition: all 0.2s ease;
+    border-radius: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.skicaBlock a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.skicaBlock:hover {
+  transform: translate(-2px, -2px);
+  background-color: var(--skicaBlock-hover-color);
+  box-shadow: 6px 6px 0px 0px black;
+  cursor: pointer;
+}
+
+/* OBLAST OBRÁZKU */
+.skica-img-wrapper {
+    width: 100%;
+    aspect-ratio: 1 / 1 !important;
+    overflow: hidden;    
+    border-radius: 0.4rem;  
+    margin-bottom: 0.75rem; 
+    background-color: #ffffff;
+    flex-shrink: 0; /* Nedovolí mřížce čtverec jakkoliv zmáčknout */
+}
+
+.skica-img-wrapper img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;    
+    object-position: center; 
+    display: block;
+}
+
+/* Změna selektorů z .skicaBlockId na p.skicaBlockId */
+p.skicaBlockId {
+    font-size: 0.9rem;
+    color: #6e6356;
+    margin: 0 0 0.2rem 0; /* Vynulujeme výchozí marginy odstavce */
+    font-weight: normal;
+}
+
+p.skicaBlockTitle {
+    font-size: 1.1rem;
+    line-height: 1.2;
+    margin: 0; /* Vynulujeme výchozí marginy odstavce */
+    color: black;
+}
+
+.filterBtns {
+	margin-top: 1em;
+	margin-bottom: 1em;
+	width: 100%;
+}
+
+.filterBtn {
+  background: var(--filterBtn-color);
+  border: 2px solid black;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.filterBtn:hover {
+    background: var(--filterBtn-hover-color);
+}
+
+.filterBtn.active {
+  background: var(--accent);
+  color: white;
+  transform: translateY(1px);
+}
+
+/* VYHLEDÁVAČ V ARCHIVU  */
+.searchBar {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  border: 3px solid var(--searchbar-bg);
+  border-radius: 1rem 1rem 0 0;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.searchBar input {
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  padding: 0.25rem;
+  flex: 1;
+  min-width: 150px;
+  background: transparent;
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  background: var(--chip-color);
+  border: 1px solid black;
+  padding: 0.2rem 0.5rem;
+  border-radius: 0.25rem;
+  font-size: 0.8rem;
+}
+.chip-remove {
+  background: none;
+  border: none;
+  margin-left: 0.25rem;
+  cursor: pointer;
+  color: red;
+}
+
+.autocomplete {
+    position: absolute;
+    top: 100%;
+    left: 0;
+	background: white;
+	max-height: 40vh;
+	 overflow-y: auto; 
+	 overflow-x: auto; 
+	 z-index: 10; 
+	width: 100%;
+	border-radius: 0 0 1rem 1rem;
+}
+
+.autocomplete-item {
+  padding: 0.5rem;
+  cursor: pointer;
+}
+.autocomplete-item:hover {
+  background: #f0f0f0;
+}
+
+.autocomplete-category {
+    background-color: #f4f4f4;
+    color: black;
+    font-size: 0.9rem;
+    font-weight: bold;
+    padding: 0.3rem 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.autocomplete-count {
+    color: #888888; /* Jemná šedá barva */
+    font-size: 0.9rem; /* Mírně menší písmo než samotný tag */
+    margin-left: 0.25rem; /* Drobná mezera od názvu tagu */
+    font-weight: normal; /* Aby číslo nebylo tučné, pokud máš tagy tučně */
+}
+
+.results-count {
+    font-size: 0.95rem;
+    color: #6e6356; /* Stejná příjemná hnědošedá jako u ID skici */
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+
+/* ABOUT PAGE */
+
+/* ABOUT PAGE */
+
+.about-box {
+    background-color: var(--skicaBlock-color);
+    padding: 2rem;
+    border-radius: 2rem;
+    text-align: center;
+    box-sizing: border-box;
+    
+    width: 100%;
+    max-width: 900px; 
+}
+
+.about-box h1 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+.about-info-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; 
+    gap: 2rem; 
+    margin-bottom:3rem;
+}
+
+#about-img {
+    width: 30%; 
+    height: auto;
+    background-color: white; 
+    border: 3px solid black;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    box-shadow: 6px 6px 0px 0px rgba(0, 0, 0, 0.15);
+}
+
+#about-text {
+    font-size: 1.6rem; 
+    line-height: 1.4;  
+    text-align: left;  
+    max-width: 55%;
+}
+
+/* RESPONSIVITA PRO MOBILY */
+@media screen and (max-width: 800px) {
+    .about-info-wrapper {
+        flex-direction: column; 
+        gap: 1.5rem;
+    }
+
+    #about-img {
+        width: 60%; 
+    }
+
+    #about-text {
+        max-width: 100%;
+        width: 100%;
+        text-align: center; 
+        font-size: 1.3rem;  
+        padding-left: 0;  
+    }
+}
+
+
+/* FOOTER */
+
+footer {
+    background-color: var(--footer-bg);
+    padding: 1rem 1rem;
+    text-align: center;    
+}

@@ -1,0 +1,1586 @@
+[
+    {
+        "id": 1,
+        "title": "Žiju s pětima knedlema",
+        "img": "/img/comics/1.jpg",
+        "tags": [
+            "absurdní",
+            "milé"
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Saturn pojídá svou pizzu",
+        "img": "/img/comics/2.png",
+        "tags": [
+            "kultura",
+            "umění",
+            "jídlo"
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Neorganizovaný zločin",
+        "img": "/img/comics/3.jpg",
+        "tags": [
+            "slovní hříčky"
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Bez názvu",
+        "img": "/img/comics/4.jpg",
+        "tags": [
+            "abstraktní",
+            "bez názvu"
+        ]
+    },
+    {
+        "id": 5,
+        "title": "V pohodě",
+        "img": "/img/comics/5.jpg",
+        "tags": [
+            "absurdní"
+        ]
+    },
+    {
+        "id": 6,
+        "title": "Boží mlýny",
+        "img": "/img/comics/6.jpg",
+        "tags": [
+            "absurdní",
+            "slovní hříčky"
+        ]
+    },
+    {
+        "id": 7,
+        "title": "Odhalen!!!",
+        "img": "/img/comics/7.jpg",
+        "tags": [
+            "absurdní"
+        ]
+    },
+    {
+        "id": 8,
+        "title": "Koleg není nadšený",
+        "img": "/img/comics/8.jpg",
+        "tags": [
+            "absurdní",
+            "práce"
+        ]
+    },
+    {
+        "id": 9,
+        "title": "Kolik jazyků máš",
+        "img": "/img/comics/9.jpg",
+        "tags": [
+            "absurdní"
+        ]
+    },
+    {
+        "id": 10,
+        "title": "Lego Konflikt",
+        "img": "/img/comics/10.jpg",
+        "tags": [
+            "absurdní",
+            "slovní hříčky"
+        ]
+    },
+    {
+        "id": 11,
+        "title": "Rybí inflace",
+        "img": "/img/comics/11.jpg",
+        "tags": [
+            "absurdní",
+            "zvířata",
+            "příroda"
+        ]
+    },
+    {
+        "id": 12,
+        "title": "Investiční příležitost #1",
+        "img": "/img/comics/12.jpg",
+        "tags": [
+            "absurdní",
+            "investiční příležitost"
+        ]
+    },
+    {
+        "id": 13,
+        "title": "Trapas!",
+        "img": "/img/comics/13.jpg",
+        "tags": [
+            "absurdní",
+            "trapas",
+            "nesnáším když"
+        ]
+    },
+    {
+        "id": 14,
+        "title": "Soudce Cringe",
+        "img": "/img/comics/14.jpg",
+        "tags": [
+            "slovní hříčky",
+            "česko",
+            "písničky",
+            "bedna od whisky"
+        ]
+    },
+    {
+        "id": 15,
+        "title": "Bedna od Whisky",
+        "img": "/img/comics/15.jpg",
+        "tags": [
+            "slovní hříčky",
+            "česko",
+            "písničky",
+            "bedna od whisky"
+        ]
+    },
+    {
+        "id": 16,
+        "title": "S přáteli v hlíně",
+        "img": "/img/comics/16.jpg",
+        "tags": [
+            "absurdní",
+            "přátelství",
+            "ze života"
+        ]
+    },
+    {
+        "id": 17,
+        "title": "Svědky absolutního kina",
+        "img": "/img/comics/17.jpg",
+        "tags": [
+            "absurdní",
+            "ze života"
+        ]
+    },
+    {
+        "id": 18,
+        "title": "Co je purp",
+        "img": "/img/comics/18.jpg",
+        "tags": [
+            "absurdní"
+        ]
+    },
+    {
+        "id": 19,
+        "title": "Bez názvu #2",
+        "img": "/img/comics/19.jpg",
+        "tags": [
+            "abstraktní",
+            "bez názvu"
+        ]
+    },
+    {
+        "id": 20,
+        "title": "Investiční příležitost #2",
+        "img": "/img/comics/20.jpg",
+        "tags": [
+            "absurdní",
+            "investiční příležitost",
+            "slovní hříčky"
+        ]
+    },
+    {
+        "id": 21,
+        "title": "Astronomický jev",
+        "img": "/img/comics/21.jpg",
+        "tags": [
+            "absurdní",
+            "vesmír",
+            "jídlo"
+        ]
+    },
+    {
+        "id": 22,
+        "title": "Nechte zvony hnít",
+        "img": "/img/comics/22.jpg",
+        "tags": [
+            "slovní hříčky",
+            "česko",
+            "písničky"
+        ]
+    },
+    {
+        "id": 23,
+        "title": "Milostný šestiúhelník",
+        "img": "/img/comics/23.jpg",
+        "tags": [
+            "slovní hříčky",
+            "absurdní",
+            "film",
+            "láska"
+        ]
+    },
+    {
+        "id": 24,
+        "title": "Bez názvu #3",
+        "img": "/img/comics/24.png",
+        "tags": [
+            "abstraktní",
+            "bez názvu"
+        ]
+    },
+    {
+        "id": 25,
+        "title": "Sněhurka a 8147 trpaslíků",
+        "img": "/img/comics/25.jpg",
+        "tags": [
+            "absurdní",
+            "sněhurka",
+            "pohádky"
+        ]
+    },
+    {
+        "id": 26,
+        "title": "Sněhurka a 8147 trpaslíků II ",
+        "img": "/img/comics/26.jpg",
+        "tags": [
+            "absurdní",
+            "sněhurka",
+            "pohádky"
+        ]
+    },
+    {
+        "id": 27,
+        "title": "Pondělní mejdan",
+        "img": "/img/comics/27.jpg",
+        "tags": [
+            "absurdní",
+            "práce"
+        ]
+    },
+    {
+        "id": 28,
+        "title": "Zmeškal mozek",
+        "img": "/img/comics/28.jpg",
+        "tags": [
+            "absurdní"
+        ]
+    },
+    {
+        "id": 29,
+        "title": "Mozkohniloba",
+        "img": "/img/comics/29.jpg",
+        "tags": [
+            "absurdní",
+            "internet"
+        ]
+    },
+    {
+        "id": 30,
+        "title": "Pozornost",
+        "img": "/img/comics/30.jpg",
+        "tags": [
+            "slovní hříčky",
+            "příběhy"
+        ]
+    },
+    {
+        "id": 31,
+        "title": "Investiční příležitost #3",
+        "img": "/img/comics/31.jpg",
+        "tags": [
+            "slovní hříčky",
+            "investiční příležitost",
+            "jídlo"
+        ]
+    },
+    {
+        "id": 32,
+        "title": "Hoax",
+        "img": "/img/comics/32.jpg",
+        "tags": [
+            "příběhy",
+            "dezinformace",
+            "azbest"
+        ]
+    },
+    {
+        "id": 33,
+        "title": "Hoax II",
+        "img": "/img/comics/33.jpg",
+        "tags": [
+            "příběhy",
+            "dezinformace",
+            "azbest",
+            "láska"
+        ]
+    },
+    {
+        "id": 34,
+        "title": "Hoax III",
+        "img": "/img/comics/34.jpg",
+        "tags": [
+            "příběhy",
+            "dezinformace",
+            "azbest"
+        ]
+    },
+    {
+        "id": 35,
+        "title": "Investiční příležitost #4",
+        "img": "/img/comics/35.jpg",
+        "tags": [
+            "absurdní",
+            "investiční příležitost"
+        ]
+    },
+    {
+        "id": 36,
+        "title": "Záhadná vražda",
+        "img": "/img/comics/36.jpg",
+        "tags": [
+            "bible"
+        ]
+    },
+    {
+        "id": 37,
+        "title": "Předpověď počasí",
+        "img": "/img/comics/37.jpg",
+        "tags": [
+            "dinosauři",
+            "zvířata",
+            "příroda"
+        ]
+    },
+    {
+        "id": 38,
+        "title": "Kočička kytička",
+        "img": "/img/comics/38.jpg",
+        "tags": [
+            "zvířata ",
+            "příroda",
+            "kočky",
+            "milé"
+        ]
+    },
+    {
+        "id": 39,
+        "title": "Mrkev",
+        "img": "/img/comics/39.jpg",
+        "tags": [
+            "absurdní",
+            "jídlo"
+        ]
+    },
+    {
+        "id": 40,
+        "title": "Sedmiměsíční vztah",
+        "img": "/img/comics/40.jpg",
+        "tags": [
+            "slovní hříčky",
+            "láska"
+        ]
+    },
+    {
+        "id": 41,
+        "title": "Bez názvu #4",
+        "img": "/img/comics/41.jpg",
+        "tags": [
+            "abstraktní",
+            "bez názvu"
+        ]
+    },
+    {
+        "id": 42,
+        "title": "Strach z úspěchu",
+        "img": "/img/comics/42.jpg",
+        "tags": [
+            "absurdní"
+        ]
+    },
+    {
+        "id": 43,
+        "title": "Bez názvu #5",
+        "img": "/img/comics/43.jpg",
+        "tags": [
+            "abstraktní",
+            "bez názvu",
+            "zvířata"
+        ]
+    },
+    {
+        "id": 44,
+        "title": "Bez myšlenky",
+        "img": "/img/comics/44.jpg",
+        "tags": [
+            "slovní hříčky",
+            "umění"
+        ]
+    },
+    {
+        "id": 45,
+        "title": "Nejtěžší nástroj",
+        "img": "/img/comics/45.jpg",
+        "tags": [
+            "slovní hříčky",
+            "hudba"
+        ]
+    },
+    {
+        "id": 46,
+        "title": "Investiční příležitost #5",
+        "img": "/img/comics/46.jpg",
+        "tags": [
+            "absurdní",
+            "investiční příležitost",
+            "jídlo"
+        ]
+    },
+    {
+        "id": 47,
+        "title": "Bez názvu #6",
+        "img": "/img/comics/47.jpg",
+        "tags": [
+            "abstraktní",
+            "bez názvu"
+        ]
+    },
+    {
+        "id": 48,
+        "title": "Kolaps",
+        "img": "/img/comics/48.jpg",
+        "tags": [
+            "absurdní",
+            "byznys",
+            "jídlo"
+        ]
+    },
+    {
+        "id": 49,
+        "title": "Na pomoc",
+        "img": "/img/comics/49.jpg",
+        "tags": [
+            "absurdní",
+            "lékaři",
+            "zdraví",
+            "jídlo"
+        ]
+    },
+    {
+        "id": 50,
+        "title": "Profesore",
+        "img": "/img/comics/50.jpg",
+        "tags": [
+            "absurdní",
+            "škola"
+        ]
+    },
+    {
+        "id": 51,
+        "title": "Zlobiví",
+        "img": "/img/comics/51.jpg",
+        "tags": [
+            "absurdní",
+            "děti",
+            "jídlo",
+            "restaurace"
+        ]
+    },
+    {
+        "id": 52,
+        "title": "Na cestách",
+        "img": "/img/comics/52.jpg",
+        "tags": [
+            "slovní hříčky",
+            "zdraví",
+            "létání"
+        ]
+    },
+    {
+        "id": 53,
+        "title": "Nepříjemné",
+        "img": "/img/comics/53.jpg",
+        "tags": [
+            "absurdní",
+            "zvířata",
+            "nesnáším když",
+            "válka"
+        ]
+    },
+    {
+        "id": 54,
+        "title": "Kuchtění",
+        "img": "/img/comics/54.jpg",
+        "tags": [
+            "absurdní",
+            "jídlo"
+        ]
+    },
+    {
+        "id": 55,
+        "title": "Předpis",
+        "img": "/img/comics/55.jpg",
+        "tags": [
+            "absurdní",
+            "sport"
+        ]
+    },
+    {
+        "id": 56,
+        "title": "Číslo objednávky",
+        "img": "/img/comics/56.jpg",
+        "tags": [
+            "slovní hříčky",
+            "absurdní",
+            "jídlo",
+            "restaurace"
+        ]
+    },
+    {
+        "id": 57,
+        "title": "Dojídání",
+        "img": "/img/comics/57.jpg",
+        "tags": [
+            "slovní hříčky",
+            "jídlo",
+            "knedlíky"
+        ]
+    },
+    {
+        "id": 58,
+        "title": "Inteligence",
+        "img": "/img/comics/58.jpg",
+        "tags": [
+            "absurdní",
+            "jídlo"
+        ]
+    },
+    {
+        "id": 59,
+        "title": "Záměna",
+        "img": "/img/comics/59.jpg",
+        "tags": [
+            "slovní hříčky",
+            "děti",
+            "jídlo"
+        ]
+    },
+    {
+        "id": 60,
+        "title": "Skákací hrad",
+        "img": "/img/comics/60.jpg",
+        "tags": [
+            "slovní hříčky"
+        ]
+    },
+    {
+        "id": 61,
+        "title": "Skákání",
+        "img": "/img/comics/61.jpg",
+        "tags": [
+            "slovní hříčky",
+            "příběhy",
+            "absurdní"
+        ]
+    },
+    {
+        "id": 62,
+        "title": "Smrtelný nábytek",
+        "img": "/img/comics/62.jpg",
+        "tags": [
+            "slovní hříčky",
+            "absurdní"
+        ]
+    },
+    {
+        "id": 63,
+        "title": "Nesmrtelná postel",
+        "img": "/img/comics/63.jpg",
+        "tags": [
+            "slovní hříčky"
+        ]
+    },
+    {
+        "id": 64,
+        "title": "Menší umělec",
+        "img": "/img/comics/64.jpg",
+        "tags": [
+            "slovní hříčky",
+            "umění",
+            "milé"
+        ]
+    },
+    {
+        "id": 65,
+        "title": "Tancující architektura",
+        "img": "/img/comics/65.jpg",
+        "tags": [
+            "slovní hříčky",
+            "absurdní"
+        ]
+    },
+    {
+        "id": 66,
+        "title": "Tetování",
+        "img": "/img/comics/66.jpg",
+        "tags": [
+            "slovní hříčky"
+        ]
+    },
+    {
+        "id": 67,
+        "title": "Strojvůdce",
+        "img": "/img/comics/67.jpg",
+        "tags": [
+            "slovní hříčky"
+        ]
+    },
+    {
+        "id": 68,
+        "title": "Snění",
+        "img": "/img/comics/68.jpg",
+        "tags": [
+            "absurdní"
+        ]
+    },
+    {
+        "id": 69,
+        "title": "Kritika umění",
+        "img": "/img/comics/69.jpg",
+        "tags": [
+            "absurdní",
+            "jídlo",
+            "umění"
+        ]
+    },
+    {
+        "id": 70,
+        "title": "Stav pepsi",
+        "img": "/img/comics/70.jpg",
+        "tags": [
+            "slovní hříčky",
+            "jídlo",
+            "restaurace"
+        ]
+    },
+    {
+        "id": 71,
+        "title": "Investiční příležitost #6",
+        "img": "/img/comics/71.jpg",
+        "tags": [
+            "absurdní",
+            "investiční příležitost"
+        ]
+    },
+    {
+        "id": 72,
+        "title": "Trapas! II",
+        "img": "/img/comics/72.jpg",
+        "tags": [
+            "absurdní",
+            "trapas",
+            "nesnáším když"
+        ]
+    },
+    {
+        "id": 73,
+        "title": "Recept",
+        "img": "/img/comics/73.jpg",
+        "tags": [
+            "slovní hříčky",
+            "jídlo"
+        ]
+    },
+    {
+        "id": 74,
+        "title": "V nouzi",
+        "img": "/img/comics/74.jpg",
+        "tags": [
+            "absurdní",
+            "jídlo"
+        ]
+    },
+    {
+        "id": 75,
+        "title": "Varování",
+        "img": "/img/comics/75.jpg",
+        "tags": [
+            "slovní hříčky",
+            "umění"
+        ]
+    },
+    {
+        "id": 76,
+        "title": "Padesát odstínů šedi",
+        "img": "/img/comics/76.jpg",
+        "tags": [
+            "slovní hříčky",
+            "nesnáším když"
+        ]
+    },
+    {
+        "id": 77,
+        "title": "Koláž/č",
+        "img": "/img/comics/77.jpg",
+        "tags": [
+            "slovní hříčky",
+            "jídlo"
+        ]
+    },
+    {
+        "id": 78,
+        "title": "Řešení problémů",
+        "img": "/img/comics/78.jpg",
+        "tags": [
+            "jídlo"
+        ]
+    },
+    {
+        "id": 79,
+        "title": "Přistižen v kaktu",
+        "img": "/img/comics/79.jpg",
+        "tags": [
+            "slovní hříčky",
+            "příroda"
+        ]
+    },
+    {
+        "id": 80,
+        "title": "Zavolal jsem mravenčího doktora",
+        "img": "/img/comics/80.jpg",
+        "tags": [
+            "písničky",
+            "slovní hříčky",
+            "lékaři",
+            "zdraví"
+        ]
+    },
+    {
+        "id": 81,
+        "title": "Z literatury hmyzu",
+        "img": "/img/comics/81.jpg",
+        "tags": [
+            "pohádky"
+        ]
+    },
+    {
+        "id": 82,
+        "title": "Bez názvu #7",
+        "img": "/img/comics/82.jpg",
+        "tags": [
+            "abstraktní",
+            "bez názvu"
+        ]
+    },
+    {
+        "id": 83,
+        "title": "Každé ráno",
+        "img": "/img/comics/83.jpg",
+        "tags": [
+            "absurdní"
+        ]
+    },
+    {
+        "id": 84,
+        "title": "Coleslaw ukrutný",
+        "img": "/img/comics/84.jpg",
+        "tags": [
+            "slovní hříčky",
+            "historie",
+            "česko"
+        ]
+    },
+    {
+        "id": 85,
+        "title": "K-pop kozel",
+        "img": "/img/comics/85.jpg",
+        "tags": [
+            "slovní hříčky",
+            "zvířata"
+        ]
+    },
+    {
+        "id": 86,
+        "title": "Francouzák",
+        "img": "/img/comics/86.jpg",
+        "tags": [
+            "slovní hříčky",
+            "jídlo",
+            "láska"
+        ]
+    },
+    {
+        "id": 87,
+        "title": "První září",
+        "img": "/img/comics/87.jpg",
+        "tags": [
+            "slovní hříčky",
+            "děti",
+            "škola"
+        ]
+    },
+    {
+        "id": 88,
+        "title": "Housky & Pušky",
+        "img": "/img/comics/88.jpg",
+        "tags": [
+            "slovní hříčky",
+            "historie"
+        ]
+    },
+    {
+        "id": 89,
+        "title": "Stavení",
+        "img": "/img/comics/89.jpg",
+        "tags": [
+            "slovní hříčky"
+        ]
+    },
+    {
+        "id": 90,
+        "title": "Paměti",
+        "img": "/img/comics/90.jpg",
+        "tags": [
+            "absurdní",
+            "děti"
+        ]
+    },
+    {
+        "id": 91,
+        "title": "Finanční potíže",
+        "img": "/img/comics/91.jpg",
+        "tags": [
+            "slovní hříčky",
+            "byznys"
+        ]
+    },
+    {
+        "id": 92,
+        "title": "Poražen",
+        "img": "/img/comics/92.jpg",
+        "tags": [
+            "slovní hříčky",
+            "zvířata",
+            "televize"
+        ]
+    },
+    {
+        "id": 93,
+        "title": "Drobní",
+        "img": "/img/comics/93.jpg",
+        "tags": [
+            "slovní hříčky",
+            "děti"
+        ]
+    },
+    {
+        "id": 94,
+        "title": "Hlava rodiny",
+        "img": "/img/comics/94.jpg",
+        "tags": [
+            "slovní hříčky",
+            "milé"
+        ]
+    },
+    {
+        "id": 95,
+        "title": "Investiční příležitost #7",
+        "img": "/img/comics/95.jpg",
+        "tags": [
+            "absurdní",
+            "investiční příležitost",
+            "sport"
+        ]
+    },
+    {
+        "id": 96,
+        "title": "Tanec",
+        "img": "/img/comics/96.jpg",
+        "tags": [
+            "absurdní"
+        ]
+    },
+    {
+        "id": 97,
+        "title": "Hlíný",
+        "img": "/img/comics/97.jpg",
+        "tags": [
+            "slovní hříčky"
+        ]
+    },
+    {
+        "id": 98,
+        "title": "Pejskové",
+        "img": "/img/comics/98.jpg",
+        "tags": [
+            "písničky",
+            "zvířata",
+            "psi"
+        ]
+    },
+    {
+        "id": 99,
+        "title": "Nezdvořilý pes",
+        "img": "/img/comics/99.jpg",
+        "tags": [
+            "absurdní",
+            "zvířata",
+            "psi",
+            "jídlo"
+        ]
+    },
+    {
+        "id": 100,
+        "title": "Stovka",
+        "img": "/img/comics/100.jpg",
+        "tags": [
+            "příběhy",
+            "stovka",
+            "absurdní",
+            "létání"
+        ]
+    },
+    {
+        "id": 101,
+        "title": "Investiční příležitost #8",
+        "img": "/img/comics/101.jpg",
+        "tags": [
+            "absurdní",
+            "investiční příležitost"
+        ]
+    },
+    {
+        "id": 102,
+        "title": "Ověřujte si kakta II",
+        "img": "/img/comics/102.jpg",
+        "tags": [
+            "slovní hříčky",
+            "příroda"
+        ]
+    },
+    {
+        "id": 103,
+        "title": "Bezpečnostní opatření",
+        "img": "/img/comics/103.jpg",
+        "tags": [
+            "absurdní",
+            "létání"
+        ]
+    },
+    {
+        "id": 104,
+        "title": "Houpačkový stát",
+        "img": "/img/comics/104.jpg",
+        "tags": [
+            "abstraktní"
+        ]
+    },
+    {
+        "id": 105,
+        "title": "Ručení omezené",
+        "img": "/img/comics/105.jpg",
+        "tags": [
+            "slovní hříčky",
+            "byznys"
+        ]
+    },
+    {
+        "id": 106,
+        "title": "Obrácená psychologie 101",
+        "img": "/img/comics/106.jpg",
+        "tags": [
+            "slovní hříčky",
+            "škola"
+        ]
+    },
+    {
+        "id": 107,
+        "title": "Špatný podnik",
+        "img": "/img/comics/107.jpg",
+        "tags": [
+            "slovní hříčky",
+            "byznys"
+        ]
+    },
+    {
+        "id": 108,
+        "title": "Výkon srážky",
+        "img": "/img/comics/108.jpg",
+        "tags": [
+            "slovní hříčky",
+            "koně"
+        ]
+    },
+    {
+        "id": 109,
+        "title": "Dostihy",
+        "img": "/img/comics/109.jpg",
+        "tags": [
+            "děti",
+            "milé",
+            "koně"
+        ]
+    },
+    {
+        "id": 110,
+        "title": "Strach z neznáma",
+        "img": "/img/comics/110.jpg",
+        "tags": [
+            "absurdní",
+            "škola",
+            "film"
+        ]
+    },
+    {
+        "id": 111,
+        "title": "Příběhy z korporátu",
+        "img": "/img/comics/111.jpg",
+        "tags": [
+            "příběhy",
+            "byznys",
+            "slovní hříčky",
+            "absurdní"
+        ]
+    },
+    {
+        "id": 112,
+        "title": "Já mám koně",
+        "img": "/img/comics/112.jpg",
+        "tags": [
+            "slovní hříčky",
+            "historie",
+            "česko",
+            "koně"
+        ]
+    },
+    {
+        "id": 113,
+        "title": "Požární systém",
+        "img": "/img/comics/113.jpg",
+        "tags": [
+            "slovní hříčky"
+        ]
+    },
+    {
+        "id": 114,
+        "title": "Zábavná vychytávka",
+        "img": "/img/comics/114.jpg",
+        "tags": []
+    },
+    {
+        "id": 115,
+        "title": "Extrémní cvičení",
+        "img": "/img/comics/115.jpg",
+        "tags": [
+            "absurdní",
+            "sport"
+        ]
+    },
+    {
+        "id": 116,
+        "title": "Můj šálek kávy",
+        "img": "/img/comics/116.jpg",
+        "tags": [
+            "slovní hříčky",
+            "jídlo"
+        ]
+    },
+    {
+        "id": 117,
+        "title": "Autohnus",
+        "img": "/img/comics/117.jpg",
+        "tags": [
+            "televize"
+        ]
+    },
+    {
+        "id": 118,
+        "title": "Popularizace středy",
+        "img": "/img/comics/118.jpg",
+        "tags": []
+    },
+    {
+        "id": 119,
+        "title": "Volání povolání",
+        "img": "/img/comics/119.jpg",
+        "tags": [
+            "slovní hříčky"
+        ]
+    },
+    {
+        "id": 120,
+        "title": "Zdravotní komplikace",
+        "img": "/img/comics/120.jpg",
+        "tags": [
+            "slovní hříčky",
+            "lékaři",
+            "zdraví"
+        ]
+    },
+    {
+        "id": 121,
+        "title": "Čas jsou peníze",
+        "img": "/img/comics/121.jpg",
+        "tags": [
+            "slovní hříčky",
+            "byznys",
+            "práce"
+        ]
+    },
+    {
+        "id": 122,
+        "title": "Mé hobby",
+        "img": "/img/comics/122.jpg",
+        "tags": [
+            "slovní hříčky",
+            "příroda"
+        ]
+    },
+    {
+        "id": 123,
+        "title": "Oblíbené zvíře",
+        "img": "/img/comics/123.jpg",
+        "tags": [
+            "slovní hříčky",
+            "příroda",
+            "zvířata"
+        ]
+    },
+    {
+        "id": 124,
+        "title": "Práce snů",
+        "img": "/img/comics/124.jpg",
+        "tags": [
+            "slovní hříčky",
+            "válka"
+        ]
+    },
+    {
+        "id": 125,
+        "title": "Barbie a sken",
+        "img": "/img/comics/125.jpg",
+        "tags": [
+            "slovní hříčky",
+            "láska"
+        ]
+    },
+    {
+        "id": 126,
+        "title": "Investiční příležitost #9",
+        "img": "/img/comics/126.jpg",
+        "tags": [
+            "slovní hříčky",
+            "investiční příležitost"
+        ]
+    },
+    {
+        "id": 127,
+        "title": "První den",
+        "img": "/img/comics/127.jpg",
+        "tags": [
+            "slovní hříčky",
+            "bible"
+        ]
+    },
+    {
+        "id": 128,
+        "title": "Mikromanagement",
+        "img": "/img/comics/128.jpg",
+        "tags": [
+            "slovní hříčky",
+            "byznys",
+            "práce"
+        ]
+    },
+    {
+        "id": 129,
+        "title": "Sčítanie mám zo všetkého najradšej",
+        "img": "/img/comics/129.jpg",
+        "tags": [
+            "slovní hříčky",
+            "hudba",
+            "škola",
+            "celebrity"
+        ]
+    },
+    {
+        "id": 130,
+        "title": "Rekurze",
+        "img": "/img/comics/130.jpg",
+        "tags": [
+            "slovní hříčky"
+        ]
+    },
+    {
+        "id": 131,
+        "title": "Nadílka",
+        "img": "/img/comics/131.jpg",
+        "tags": [
+            "slovní hříčky",
+            "svátky",
+            "děti",
+            "jídlo"
+        ]
+    },
+    {
+        "id": 132,
+        "title": "Miminotologie",
+        "img": "/img/comics/132.jpg",
+        "tags": [
+            "slovní hříčky",
+            "děti",
+            "milé"
+        ]
+    },
+    {
+        "id": 133,
+        "title": "Módamoderátor",
+        "img": "/img/comics/133.jpg",
+        "tags": [
+            "slovní hříčky",
+            "celebrity"
+        ]
+    },
+    {
+        "id": 134,
+        "title": "Přítel člověka",
+        "img": "/img/comics/134.jpg",
+        "tags": [
+            "absurdní",
+            "psi"
+        ]
+    },
+    {
+        "id": 135,
+        "title": "Jak si říct o více peněz",
+        "img": "/img/comics/135.jpg",
+        "tags": [
+            "byznys"
+        ]
+    },
+    {
+        "id": 136,
+        "title": "Vánoční přání",
+        "img": "/img/comics/136.jpg",
+        "tags": [
+            "slovní hříčky",
+            "svátky",
+            "televize",
+            "pohádky",
+            "láska"
+        ]
+    },
+    {
+        "id": 137,
+        "title": "Novomloční",
+        "img": "/img/comics/137.jpg",
+        "tags": [
+            "slovní hříčky",
+            "svátky",
+            "zvířata"
+        ]
+    },
+    {
+        "id": 138,
+        "title": "Krabvěsta a ženich",
+        "img": "/img/comics/138.jpg",
+        "tags": [
+            "slovní hříčky",
+            "písničky",
+            "láska",
+            "zvířata"
+        ]
+    },
+    {
+        "id": 139,
+        "title": "Vězení 21. století",
+        "img": "/img/comics/139.jpg",
+        "tags": [
+            "slovní hříčky",
+            "byznys"
+        ]
+    },
+    {
+        "id": 140,
+        "title": "Investiční příležitost #10",
+        "img": "/img/comics/140.jpg",
+        "tags": [
+            "slovní hříčky",
+            "investiční příležitost"
+        ]
+    },
+    {
+        "id": 141,
+        "title": "O cestách",
+        "img": "/img/comics/141.jpg",
+        "tags": [
+            "slovní hříčky"
+        ]
+    },
+    {
+        "id": 142,
+        "title": "Škola je otrava",
+        "img": "/img/comics/142.jpg",
+        "tags": [
+            "slovní hříčky",
+            "škola"
+        ]
+    },
+    {
+        "id": 143,
+        "title": "Investiční příležitost #11",
+        "img": "/img/comics/143.jpg",
+        "tags": [
+            "absurdní",
+            "investiční příležitost"
+        ]
+    },
+    {
+        "id": 144,
+        "title": "Vyjednávání",
+        "img": "/img/comics/144.jpg",
+        "tags": [
+            "absurdní",
+            "psi"
+        ]
+    },
+    {
+        "id": 145,
+        "title": "Trolejbal",
+        "img": "/img/comics/145.jpg",
+        "tags": [
+            "absurdní",
+            "sport"
+        ]
+    },
+    {
+        "id": 146,
+        "title": "Caesarův konec",
+        "img": "/img/comics/146.jpg",
+        "tags": [
+            "slovní hříčky",
+            "historie"
+        ]
+    },
+    {
+        "id": 147,
+        "title": "Příliš štěstí",
+        "img": "/img/comics/147.jpg",
+        "tags": [
+            "absurdní",
+            "celebrity",
+            "hudba"
+        ]
+    },
+    {
+        "id": 148,
+        "title": "Pomoc druhému",
+        "img": "/img/comics/148.jpg",
+        "tags": [
+            "slovní hříčky",
+            "sport"
+        ]
+    },
+    {
+        "id": 149,
+        "title": "Nadšení",
+        "img": "/img/comics/149.jpg",
+        "tags": [
+            "slovní hříčky",
+            "škola",
+            "absurdní"
+        ]
+    },
+    {
+        "id": 150,
+        "title": "Přehánění",
+        "img": "/img/comics/150.jpg",
+        "tags": [
+            "slovní hříčky"
+        ]
+    },
+    {
+        "id": 151,
+        "title": "Vent art",
+        "img": "/img/comics/151.jpg",
+        "tags": [
+            "slovní hříčky",
+            "umění"
+        ]
+    },
+    {
+        "id": 152,
+        "title": "Dramatický příběh",
+        "img": "/img/comics/152.jpg",
+        "tags": [
+            "příběhy",
+            "absurdní",
+            "jídlo"
+        ]
+    },
+    {
+        "id": 153,
+        "title": "Šokující statistika",
+        "img": "/img/comics/153.jpg",
+        "tags": [
+            "absurdní"
+        ]
+    },
+    {
+        "id": 154,
+        "title": "Rozloučení se svobodou",
+        "img": "/img/comics/154.jpg",
+        "tags": [
+            "slovní hříčky"
+        ]
+    },
+    {
+        "id": 155,
+        "title": "Ideální objednávka",
+        "img": "/img/comics/155.jpg",
+        "tags": [
+            "absurdní",
+            "restaurace"
+        ]
+    },
+    {
+        "id": 156,
+        "title": "Hlad",
+        "img": "/img/comics/156.jpg",
+        "tags": [
+            "absurdní"
+        ]
+    },
+    {
+        "id": 157,
+        "title": "Mimozemská návštěva",
+        "img": "/img/comics/157.jpg",
+        "tags": [
+            "absurdní",
+            "příběhy",
+            "vesmír"
+        ]
+    },
+    {
+        "id": 158,
+        "title": "Dát si dvacet",
+        "img": "/img/comics/158.jpg",
+        "tags": [
+            "slovní hříčky",
+            "jídlo",
+            "knedlíky"
+        ]
+    },
+    {
+        "id": 159,
+        "title": "Marketing",
+        "img": "/img/comics/159.jpg",
+        "tags": [
+            "slovní hříčky",
+            "škola",
+            "láska"
+        ]
+    },
+    {
+        "id": 160,
+        "title": "Studium v roce 2087",
+        "img": "/img/comics/160.jpg",
+        "tags": [
+            "absurdní",
+            "škola"
+        ]
+    },
+    {
+        "id": 161,
+        "title": "Hlasitá pošta",
+        "img": "/img/comics/161.jpg",
+        "tags": [
+            "slovní hříčky"
+        ]
+    },
+    {
+        "id": 162,
+        "title": "magmazel Magmar",
+        "img": "/img/comics/162.jpg",
+        "tags": [
+            "slovní hříčky"
+        ]
+    },
+    {
+        "id": 163,
+        "title": "Vyskakovací toust",
+        "img": "/img/comics/163.jpg",
+        "tags": [
+            "absurdní",
+            "jídlo"
+        ]
+    },
+    {
+        "id": 164,
+        "title": "Návštěva restaurace z hlubokého vesmíru",
+        "img": "/img/comics/164.jpg",
+        "tags": [
+            "absurdní",
+            "vesmír",
+            "jídlo"
+        ]
+    },
+    {
+        "id": 165,
+        "title": "Inovace",
+        "img": "/img/comics/165.jpg",
+        "tags": [
+            "jídlo"
+        ]
+    },
+    {
+        "id": 166,
+        "title": "Dávej Bacha!",
+        "img": "/img/comics/166.jpg",
+        "tags": [
+            "slovní hříčky",
+            "celebrity",
+            "hudba",
+            "pohádky",
+            "zvířata"
+        ]
+    },
+    {
+        "id": 167,
+        "title": "Svobodní zednáři",
+        "img": "/img/comics/167.jpg",
+        "tags": [
+            "slovní hříčky",
+            "láska"
+        ]
+    },
+    {
+        "id": 168,
+        "title": "Filmový šváb",
+        "img": "/img/comics/168.jpg",
+        "tags": [
+            "slovní hříčky",
+            "zvířata"
+        ]
+    },
+    {
+        "id": 169,
+        "title": "Značkové oblečení",
+        "img": "/img/comics/169.jpg",
+        "tags": [
+            "slovní hříčky"
+        ]
+    },
+    {
+        "id": 170,
+        "title": "Ratatouille",
+        "img": "/img/comics/170.jpg",
+        "tags": [
+            "slovní hříčky",
+            "zvířata",
+            "film"
+        ]
+    },
+    {
+        "id": 171,
+        "title": "Vědecký krokus",
+        "img": "/img/comics/171.jpg",
+        "tags": [
+            "slovní hříčky"
+        ]
+    }
+]

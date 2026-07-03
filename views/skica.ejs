@@ -1,0 +1,31 @@
+<div class="skica-container">
+    
+    <div class="skica-header">
+        <h1><%= skica.title %></h1>
+        <div id="skicaNum"><%= skica.id %> / <%= skiciCount %></div>
+    </div>
+
+     <%- include("components/skicaNav", { prev, next }) %>
+
+    <div class="skica-frame">
+        <img src="<%= skica.img %>" alt="<%= skica.title %>">
+    </div>
+
+    <div class="skica-nav-wrapper">
+        <%- include("components/skicaNav", { prev, next }) %>
+    </div>
+
+        <div class="skica-desc">
+            <div class="skica-tags">
+                <strong>Tagy:</strong> 
+            <% skica.tags.forEach(tag => { %>
+    <a href="/archive?tag=<%= encodeURIComponent(tag.toLowerCase()) %>" class="chip">
+      #<%= tag %>
+    </a>
+  <% }) %>    
+            </div>
+            <br>
+        <%= skica.desc ? skica.desc : '' %>
+            </div>
+
+</div>

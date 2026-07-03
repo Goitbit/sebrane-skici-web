@@ -1,0 +1,281 @@
+<h1>Archiv</h1>
+
+<div class="searchBar">
+
+    <input id="searchInput" placeholder="Hledat tagy..." autocomplete="off" />
+
+    <div id="chipContainer" class="chipContainer"></div>
+
+    <div id="autocomplete" class="autocomplete"></div>
+
+</div>
+
+
+<div class="filterBtns">
+
+    <button class="filterBtn">Vše</button>
+
+    <button class="filterBtn">Absurdní</button>
+
+    <button class="filterBtn">Slovní hříčky</button>
+
+    <button class="filterBtn" >Příběhy</button>
+
+    <button class="filterBtn">Abstraktní</button>
+
+</div>
+
+<div id="resultsCount" class="results-count"></div>
+
+<div id="skicaList">
+    <%- include("components/skicaList", { skici }) %>
+</div>
+
+<script defer>
+  const skiciJson = <%- JSON.stringify(skici) %>;
+  
+  const skiciTags = Array.from(
+    new Set(skiciJson.flatMap(s => s.tags || []))
+  );
+
+  const tagCounts = {};
+  skiciJson.flatMap(s => s.tags || []).forEach(tag => {
+    const tagLow = tag.toLowerCase();
+    tagCounts[tagLow] = (tagCounts[tagLow] || 0) + 1;
+  });
+
+  const skiciTitlesIds =  Array.from(
+    new Set(skiciJson.flatMap(s => s.title + "-id-" + s.id || []))
+  );  
+
+  // 2. STAV VYHLEDÁVAČE (STATE)
+  let selectedTags = [];
+
+  // 3. DOM ELEMENTY
+  const searchInput = document.getElementById('searchInput');
+  const chipContainer = document.getElementById('chipContainer');
+  const autocomplete = document.getElementById('autocomplete');
+  const skicaListContainer = document.getElementById('skicaList');
+  const filterBtns = document.querySelectorAll('.filterBtn');
+
+// --- HLAVNÍ FUNKCE 1: FILTROVÁNÍ MŘÍŽKY ---
+// --- HLAVNÍ FUNKCE 1: FILTROVÁNÍ MŘÍŽKY ---
+function updateGrid() {
+  // Najdeme všechny prvky skicaBlock
+  const htmlSkici = document.querySelectorAll('.js-skica-item');
+  const totalCount = htmlSkici.length; // Celkový počet skic v databázi
+  let visibleCount = 0;               // Sem budeme sčítat ty viditelné
+  let hasResults = false;
+
+  htmlSkici.forEach(element => {
+    // Vytáhneme tagy z data-atributu
+    const tagyAtribut = element.dataset.tags ? element.dataset.tags.split(',') : [];
+    const tagyAtributLowcase = tagyAtribut.map(t => t.trim().toLowerCase());
+
+    // Zkontrolujeme, zda skica obsahuje všechny vybrané tagy
+    const matchesFilter = selectedTags.every(tag => tagyAtributLowcase.includes(tag.toLowerCase()));
+
+    if (selectedTags.length === 0 || matchesFilter) {
+      element.style.display = ''; // Zobrazí se
+      visibleCount++;             // Započítáme viditelnou skicu
+      hasResults = true;
+    } else {
+      element.style.display = 'none'; // Schová se
+    }
+  });
+
+  // --- NOVÉ: AKTUALIZACE TEXTU POČÍTADLA ---
+  const resultsCountElem = document.getElementById('resultsCount');
+  if (resultsCountElem) {
+    if (selectedTags.length === 0) {
+      // Pokud nic nefiltrujeme, ukážeme jen celkový počet
+      resultsCountElem.textContent = `Celkem ${totalCount} skic`;
+    } else {
+      // Pokud filtrujeme, ukážeme "Zobrazeno X z Y"
+      resultsCountElem.textContent = `Zobrazeno ${visibleCount} z ${totalCount} skic`;
+    }
+  }
+
+  // Správa hlášky "Nic nenalezeno" (Tento zbytek tvého kódu zůstává stejný)
+  const skicaListEm = document.querySelector('.skicaList');
+  const existujiciHlaska = skicaListEm ? skicaListEm.querySelector('.no-results') : null;
+  
+  if (existujiciHlaska) {
+    existujiciHlaska.remove();
+  }
+
+  if (!hasResults && skicaListEm) {
+    const hlaska = document.createElement('p');
+    hlaska.className = 'no-results';
+    hlaska.style.width = '100%';
+    hlaska.textContent = 'Žádné skici neodpovídají zadaným filtrům. 😢';
+    skicaListEm.appendChild(hlaska);
+  }
+}
+
+  // --- HLAVNÍ FUNKCE 2: SPRÁVA BUBILN (CHIPS) ---
+  function renderChips() {
+    chipContainer.innerHTML = selectedTags.map(tag => `
+      <span class="chip">
+        #${tag}
+        <button onclick="removeTag('${tag}')" class="chip-remove">✕</button>
+      </span>
+    `).join('');
+
+    // Upravíme placeholder vstupu podle toho, zda filtrujeme
+    searchInput.placeholder = selectedTags.length === 0 ? "Hledat tagy..." : "";
+    
+    // Aktualizujeme vzhled aktivních tlačítek kategorií
+    filterBtns.forEach(btn => {
+      const text = btn.textContent.trim().toLowerCase();
+      if (text === 'vše' && selectedTags.length === 0) {
+        btn.classList.add('active');
+      } else if (selectedTags.includes(text)) {
+        btn.classList.add('active');
+      } else {
+        btn.classList.remove('active');
+      }
+    });
+
+    updateGrid();
+  }
+
+  window.removeTag = function(tag) {
+    selectedTags = selectedTags.filter(t => t !== tag);
+    renderChips();
+  };
+
+  // --- HLAVNÍ FUNKCE 3: NAŠEPTÁVAČ (AUTOCOMPLETE) ---
+// --- POMOCNÁ FUNKCE PRO ODSTRANĚNÍ HÁČKŮ A ČÁREK ---
+  function removeDiacritics(text) {
+// 1. Rozložíme české znaky a smažeme háčky/čárky
+    const noDiacritics = text.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+    
+    // 2. Odstraníme kulaté () a hranaté [] závorky úplně pryč
+    return noDiacritics.replace(/[\(\)\[\]]/g, "");
+  }
+
+  // --- NAVYŠENÝ NAŠEPTÁVAČ (S PODPOROU ČEŠTINY) ---
+  searchInput.addEventListener('input', (e) => {
+    // 1. Zadaný text převedeme na malá písmena a zbavíme ho diakritiky
+    const textLowCase = e.target.value.trim().toLowerCase();
+    const textRaw = removeDiacritics(textLowCase);
+    
+    if (textRaw === '') {
+      autocomplete.innerHTML = '';
+      return;
+    }
+
+    const safeText = textRaw.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
+    
+    // ZÁMĚNA ZA ČISTOU HRANICI SLOVA:
+    // Místo \b použijeme (^|\s), což znamená: "buď začátek řádku, nebo mezera". 
+    // To funguje pro češtinu na 100 %.
+    const regexWordBound = new RegExp('(^|\\s)' + safeText, 'i');
+
+    // 2. FILTRUJEME TAGY
+    const suggestedTags = skiciTags.filter(tag => {
+      const tagClear = removeDiacritics(tag.toLowerCase());
+      const isSelected = selectedTags.includes(tag.toLowerCase());
+
+      return !isSelected && regexWordBound.test(tagClear);
+    });
+
+    // 3. FILTRUJEME NÁZVY SKIC
+    const suggestedSkici = skiciJson.filter(skica => {
+      const titleClear = removeDiacritics(skica.title.toLowerCase());
+      return regexWordBound.test(titleClear);
+    });
+
+    // --- (Zbytek vykreslovacího kódu autocomplete.innerHTML zůstává úplně stejný) ---
+    if (suggestedTags.length === 0 && suggestedSkici.length === 0) {
+      autocomplete.innerHTML = '';
+      return;
+    }
+
+    let htmlContent = '';
+    if (suggestedTags.length > 0) {
+      htmlContent += `<div class="autocomplete-category">Tagy:</div>`;
+      htmlContent += suggestedTags.map(tag => {
+        const tagLow = tag.toLowerCase();
+        const count = tagCounts[tagLow] || 0; 
+        return `
+          <div class="autocomplete-item" data-type="tag" data-value="${tagLow}">
+            🏷️ #${tag} <span class="autocomplete-count">(${count})</span>
+          </div>
+        `;
+      }).join('');
+    }
+    if (suggestedSkici.length > 0) {
+      htmlContent += `<div class="autocomplete-category">Skici:</div>`;
+      htmlContent += suggestedSkici.map(skica => `
+        <div class="autocomplete-item" data-type="skica" data-value="${skica.id}">📄 ${skica.title}</div>
+      `).join('');
+    }
+    autocomplete.innerHTML = htmlContent;   
+  });
+
+// KLIKÁNÍ NA POLOŽKY ---
+  autocomplete.addEventListener('click', (e) => {
+    const item = e.target.closest('.autocomplete-item');
+    if (!item) return;
+
+    const type = item.dataset.type;  // buď "tag" nebo "skica"
+    const value = item.dataset.value; // buď název tagu nebo ID číslo
+
+    if (type === 'tag') {
+      // Chování pro TAG: přidat bublinu a vyfiltrovat grid
+      if (!selectedTags.includes(value)) {
+        selectedTags.push(value);
+      } 
+      searchInput.value = '';
+      autocomplete.innerHTML = '';
+      renderChips();
+    } else if (type === 'skica') {
+      // Chování pro SKICU: okamžité přesměrování na detail
+      window.location.href = "/" + value;
+    }
+  });
+
+  // Skrytí našeptávače při kliknutí mimo něj
+  document.addEventListener('click', (e) => {
+    if (!e.target.closest('.searchBar') && !e.target.closest('.autocomplete')) {
+      autocomplete.innerHTML = '';
+    }
+  });
+
+  // --- HLAVNÍ FUNKCE 4: KLIKÁNÍ NA KATEGORIE (TLAČÍTKA) ---
+  filterBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const text = btn.textContent.trim().toLowerCase();
+
+      if (text === 'vše') {
+        selectedTags = [];
+      } else {
+        if (selectedTags.includes(text)) {
+          // Pokud už tag je vybraný, kliknutím ho odebereme (přepínač)
+          selectedTags = selectedTags.filter(t => t !== text);
+        } else {
+          // Jinak ho přidáme
+          selectedTags.push(text);
+        }
+      }
+      renderChips();
+    });
+  });
+
+// --- NAČTENÍ PARAMETRŮ Z URL ADRESY
+  const urlParams = new URLSearchParams(window.location.search);
+  const tagZUrl = urlParams.get('tag'); // Vytáhne hodnotu parametru ?tag=...
+
+  if (tagZUrl) {
+    const dekodovanyTag = decodeURIComponent(tagZUrl).toLowerCase();
+    // Pokud tag existuje v naší databázi a ještě není vybraný, přidáme ho
+    if (skiciTags.map(t => t.toLowerCase()).includes(dekodovanyTag) && !selectedTags.includes(dekodovanyTag)) {
+      selectedTags.push(dekodovanyTag);
+    }
+  }
+
+  // INICIALIZACE PŘI NAČTENÍ (Tohle už v kódu máš, jen to bude pod tím)
+  renderChips();
+</script>

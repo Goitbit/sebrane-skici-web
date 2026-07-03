@@ -1,0 +1,23 @@
+<nav class="skica-nav">
+
+    <a href="<%= prev ? '/' + first.id : '' %>" class="<%= prev ? 'active' : 'disabled' %>">
+      <img src="/img/nav/first.png" alt="První">
+    </a>
+
+    <a href="<%= prev ? '/' + prev.id : '' %>" class="prevBtn <%= prev ? 'active' : 'disabled' %>">
+      <img src="/img/nav/prev.png" alt="Předchozí">
+    </a>
+
+    <a href="/random">
+    <img src="/img/nav/random.png" alt="Náhodný">
+    </a>  
+
+    <a href="<%= next ? '/' + next.id : '' %>" class="nextBtn <%= next ? 'active' : 'disabled' %>">
+    <img src="/img/nav/next.png" alt="Další">
+    </a>
+
+    <a href="<%= next ? '/' + last.id : '' %>" class="<%= next ? 'active' : 'disabled' %>">
+    <img src="/img/nav/last.png" alt="Poslední">
+    </a>
+    
+</nav>

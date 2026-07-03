@@ -1,0 +1,12 @@
+<div class="skicaBlock js-skica-item" data-id="<%= skica.id %>" data-tags="<%= (skica.tags || []).join(',') %>">
+  <a href="/<%= skica.id %>">
+
+    <div class="skica-img-wrapper">
+      <img src="<%= skica.img %>" loading="lazy" alt="<%= skica.title %>">
+    </div>
+
+    <div class="skicaBlockId"><%= skica.id %></div>
+    <div class="skicaBlockTitle"><%= skica.title %></div>
+
+  </a>
+</div>
