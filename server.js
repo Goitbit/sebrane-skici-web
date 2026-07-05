@@ -16,7 +16,7 @@ app.use(cookieParser());
 // Statické soubory (CSS, obrázky...)
 app.use(express.static("public"));
 
-
+const PORT = process.env.PORT || 3000;
 
 
 // ==========================================
@@ -244,8 +244,6 @@ app.use((req, res) => {
 // ==========================================
 // Start serveru
 // ==========================================
-// Správné ošetření portu pro produkci na Railway
-const PORT = process.env.PORT || 3000;
 
 app.listen(PORT, () => {
     console.log(`Server běží na portu ${PORT}`);
