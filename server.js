@@ -245,6 +245,6 @@ app.use((req, res) => {
 // Start serveru
 // ==========================================
 
-app.listen(PORT, () => {
-    console.log(`Server běží na portu ${PORT}`);
+app.listen(PORT, "0.0.0.0", function () {
+  // ...
 });
