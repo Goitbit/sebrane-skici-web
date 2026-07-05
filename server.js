@@ -5,7 +5,6 @@ const first = skici[0];
 const latest = skici.at(-1);
 
 const app = express();
-const PORT = 3000;
 
 // Nastavení EJS
 app.set("view engine", "ejs");
@@ -245,7 +244,9 @@ app.use((req, res) => {
 // ==========================================
 // Start serveru
 // ==========================================
+// Správné ošetření portu pro produkci na Railway
+const PORT = process.env.PORT || 3000;
 
 app.listen(PORT, () => {
-    console.log(`Running on http://localhost:${PORT}`);
+    console.log(`Server běží na portu ${PORT}`);
 });
