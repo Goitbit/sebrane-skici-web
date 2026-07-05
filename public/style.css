@@ -123,29 +123,32 @@ header a.active {
     pointer-events: none;              
 }
 
-/* STRÁNKA S KOMIKSEM */
+/* STRÁNKA S KOMIKSEM - DETAIL */
 
 /* HLAVNÍ KONTEJNER DETAILU */
 .skica-container {
     display: flex;
     flex-direction: column;
     align-items: center; 
+    width: 100%;         
     max-width: 800px;    
     margin: 0 auto;
+    box-sizing: border-box;
 }
 
 /* HLAVIČKA (Nadpis a číslo) */
 .skica-header {
     text-align: center;
-    margin-top: 0.5rem;    /* Malá, kontrolovaná mezera od hlavního navbaru */
-    margin-bottom: 1rem;   /* Mezera směrem dolů k tlačítkům */
-    padding: 0 !important; /* !important pojistí, že se ignoruje padding z hlavního navbaru */
+    margin-top: 0.5rem;    
+    margin-bottom: 1rem;   
+    padding: 0; 
     border: none;
     display: block; 
+    width: 100%;
 }
 
 .skica-header h1 {
-    margin: 0;             /* KLÍČOVÉ: Vynuluje obří výchozí margin, který má h1 v prohlížeči */
+    margin: 0;             
     font-size: 2.5rem;
     text-transform: uppercase;
     color: var(--foreground, #1a1a1a);
@@ -156,15 +159,21 @@ header a.active {
     font-size: 1.2rem;
     color: var(--skicaBlock-hover-color); 
     font-weight: bold;
+    margin-top: 0.2rem;
 }
 
 /* OBAL PRO NAVIGACI (Tlačítka) */
+.skica-nav-wrapper {
+    width: 100%;
+}
+
 .skica-nav { 
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 0.75rem; 
     width: 100%;
+    margin: 0.5rem 0;
 }
 
 .skica-nav a {
@@ -181,18 +190,8 @@ header a.active {
 
 .skica-nav a:hover { 
     transform: translateY(-1px);
-    filter:sepia(0.3) brightness(0.8);
+    filter: sepia(0.3) brightness(0.8);
 }
-
-@media (max-width: 600px) {
-    .skica-nav {
-        gap: 0.5rem;
-    }
-    .skica-nav a img {
-        width: 45px; /* Na mobilu se tlačítka přirozeně zmenší, aby se vešla vedle sebe */
-    }
-}
-
 
 /* SAMOTNÝ RÁM OBRÁZKU */
 .skica-frame {
@@ -216,23 +215,7 @@ header a.active {
     border-radius: 0.2rem;
 }
 
-/* RESPONSIVITA PRO MOBILY */
-@media (max-width: 600px) {
-    .skica-header h1 {
-        font-size: 1.8rem; 
-    }
-    
-    .skica-frame {
-        padding: 0.5rem; 
-        border-width: 2px;
-    }
-
-    .skica-nav a { 
-        padding: 0.6rem 1.4rem;
-        font-size: 1.4rem;
-    }
-}
-
+/* POPIS A TAGY */
 .skica-desc {
     background-color: white; 
     border: 3px solid black;  
@@ -240,24 +223,57 @@ header a.active {
     border-radius: 0.5rem;
     box-shadow: 6px 6px 0px 0px rgba(0, 0, 0, 0.15); 
     width: 100%;
+    box-sizing: border-box; 
 }
 
 .skica-tags {
     background-color: var(--skicaBlock-color);
     border-radius: 0.8rem;
     padding: 0.5rem;
+    display: flex;          
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    align-items: center;
 }
 
 .skica-tags .chip {
     text-decoration: none;
     color: black;
     transition: all 0.2s ease;
+    padding: 0.1rem 0.4rem;
+    border-radius: 0.3rem;
 }
 
 .skica-tags .chip:hover {
     background-color: var(--skicaBlock-hover-color);
     color: white;
     transform: translateY(-1px);
+}
+
+/* RESPONZIVITA PRO MOBILY (DO 600PX) */
+@media (max-width: 600px) {
+    .skica-header h1 {
+        font-size: 1.8rem; 
+    }
+    
+    .skica-nav {
+        gap: 0.5rem;
+    }
+
+    .skica-nav a img {
+        width: 45px; /* Tlačítka se krásně vejdou i na 360px */
+    }
+    
+    .skica-frame {
+        padding: 0.5rem; 
+        border-width: 2px;
+    }
+
+    .skica-desc {
+        padding: 0.75rem;
+        border-width: 2px;
+    }
+
 }
 
 /* ARCHIV */
