@@ -1593,5 +1593,16 @@
             "česko",
             "svátky"
         ]
+    },
+    {
+        "id": 173,
+        "title": "Historie Jana Huse",
+        "img": "/img/comics/173.jpg",
+        "tags": [
+            "slovní hříčky",
+            "historie",
+            "česko",
+            "svátky"
+        ]
     }
 ]
