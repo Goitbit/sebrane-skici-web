@@ -1604,5 +1604,13 @@
             "česko",
             "svátky"
         ]
+    },
+    {
+        "id": 174,
+        "title": "Seberozvoj",
+        "img": "/img/comics/174.jpg",
+        "tags": [
+            "slovní hříčky"
+        ]
     }
 ]
