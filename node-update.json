@@ -1,0 +1,24 @@
+const fs = require('fs');
+const path = require('path');
+
+// 1. Load your existing JSON file
+const jsonPath = path.join(__dirname, 'skici.json'); 
+const skici = JSON.parse(fs.readFileSync(jsonPath, 'utf8'));
+
+// 2. Loop through every skica object and add the thumbnail property
+const updatedSkici = skici.map(skica => {
+    // Extract the original filename from the main image path (e.g., "comic1.jpg" -> "comic1")
+    const originalFilename = path.basename(skica.img);
+    const nameWithoutExtension = path.parse(originalFilename).name;
+
+    // Point to your new webp thumbnail file
+    return {
+        ...skica,
+        thumbnail: `/thumbnails/${nameWithoutExtension}.webp`
+    };
+});
+
+// 3. Save the updated data back to skici.json
+fs.writeFileSync(jsonPath, JSON.stringify(updatedSkici, null, 4), 'utf8');
+
+console.log('✅ skici.json successfully updated with WebP thumbnails!');

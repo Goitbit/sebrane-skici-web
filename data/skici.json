@@ -6,7 +6,8 @@
         "tags": [
             "absurdní",
             "milé"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/1.webp"
     },
     {
         "id": 2,
@@ -16,7 +17,8 @@
             "kultura",
             "umění",
             "jídlo"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/2.webp"
     },
     {
         "id": 3,
@@ -24,7 +26,8 @@
         "img": "/img/comics/3.jpg",
         "tags": [
             "slovní hříčky"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/3.webp"
     },
     {
         "id": 4,
@@ -33,7 +36,8 @@
         "tags": [
             "abstraktní",
             "bez názvu"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/4.webp"
     },
     {
         "id": 5,
@@ -41,7 +45,8 @@
         "img": "/img/comics/5.jpg",
         "tags": [
             "absurdní"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/5.webp"
     },
     {
         "id": 6,
@@ -50,7 +55,8 @@
         "tags": [
             "absurdní",
             "slovní hříčky"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/6.webp"
     },
     {
         "id": 7,
@@ -58,7 +64,8 @@
         "img": "/img/comics/7.jpg",
         "tags": [
             "absurdní"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/7.webp"
     },
     {
         "id": 8,
@@ -67,7 +74,8 @@
         "tags": [
             "absurdní",
             "práce"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/8.webp"
     },
     {
         "id": 9,
@@ -75,7 +83,8 @@
         "img": "/img/comics/9.jpg",
         "tags": [
             "absurdní"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/9.webp"
     },
     {
         "id": 10,
@@ -84,7 +93,8 @@
         "tags": [
             "absurdní",
             "slovní hříčky"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/10.webp"
     },
     {
         "id": 11,
@@ -94,7 +104,8 @@
             "absurdní",
             "zvířata",
             "příroda"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/11.webp"
     },
     {
         "id": 12,
@@ -103,7 +114,8 @@
         "tags": [
             "absurdní",
             "investiční příležitost"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/12.webp"
     },
     {
         "id": 13,
@@ -113,7 +125,8 @@
             "absurdní",
             "trapas",
             "nesnáším když"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/13.webp"
     },
     {
         "id": 14,
@@ -124,7 +137,8 @@
             "česko",
             "písničky",
             "bedna od whisky"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/14.webp"
     },
     {
         "id": 15,
@@ -135,7 +149,8 @@
             "česko",
             "písničky",
             "bedna od whisky"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/15.webp"
     },
     {
         "id": 16,
@@ -145,7 +160,8 @@
             "absurdní",
             "přátelství",
             "ze života"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/16.webp"
     },
     {
         "id": 17,
@@ -154,7 +170,8 @@
         "tags": [
             "absurdní",
             "ze života"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/17.webp"
     },
     {
         "id": 18,
@@ -162,7 +179,8 @@
         "img": "/img/comics/18.jpg",
         "tags": [
             "absurdní"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/18.webp"
     },
     {
         "id": 19,
@@ -171,7 +189,8 @@
         "tags": [
             "abstraktní",
             "bez názvu"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/19.webp"
     },
     {
         "id": 20,
@@ -181,7 +200,8 @@
             "absurdní",
             "investiční příležitost",
             "slovní hříčky"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/20.webp"
     },
     {
         "id": 21,
@@ -191,7 +211,8 @@
             "absurdní",
             "vesmír",
             "jídlo"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/21.webp"
     },
     {
         "id": 22,
@@ -201,7 +222,8 @@
             "slovní hříčky",
             "česko",
             "písničky"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/22.webp"
     },
     {
         "id": 23,
@@ -212,7 +234,8 @@
             "absurdní",
             "film",
             "láska"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/23.webp"
     },
     {
         "id": 24,
@@ -221,7 +244,8 @@
         "tags": [
             "abstraktní",
             "bez názvu"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/24.webp"
     },
     {
         "id": 25,
@@ -231,7 +255,8 @@
             "absurdní",
             "sněhurka",
             "pohádky"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/25.webp"
     },
     {
         "id": 26,
@@ -241,7 +266,8 @@
             "absurdní",
             "sněhurka",
             "pohádky"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/26.webp"
     },
     {
         "id": 27,
@@ -250,7 +276,8 @@
         "tags": [
             "absurdní",
             "práce"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/27.webp"
     },
     {
         "id": 28,
@@ -258,7 +285,8 @@
         "img": "/img/comics/28.jpg",
         "tags": [
             "absurdní"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/28.webp"
     },
     {
         "id": 29,
@@ -267,7 +295,8 @@
         "tags": [
             "absurdní",
             "internet"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/29.webp"
     },
     {
         "id": 30,
@@ -276,7 +305,8 @@
         "tags": [
             "slovní hříčky",
             "příběhy"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/30.webp"
     },
     {
         "id": 31,
@@ -286,7 +316,8 @@
             "slovní hříčky",
             "investiční příležitost",
             "jídlo"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/31.webp"
     },
     {
         "id": 32,
@@ -296,7 +327,8 @@
             "příběhy",
             "dezinformace",
             "azbest"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/32.webp"
     },
     {
         "id": 33,
@@ -307,7 +339,8 @@
             "dezinformace",
             "azbest",
             "láska"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/33.webp"
     },
     {
         "id": 34,
@@ -317,7 +350,8 @@
             "příběhy",
             "dezinformace",
             "azbest"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/34.webp"
     },
     {
         "id": 35,
@@ -326,7 +360,8 @@
         "tags": [
             "absurdní",
             "investiční příležitost"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/35.webp"
     },
     {
         "id": 36,
@@ -334,7 +369,8 @@
         "img": "/img/comics/36.jpg",
         "tags": [
             "bible"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/36.webp"
     },
     {
         "id": 37,
@@ -344,7 +380,8 @@
             "dinosauři",
             "zvířata",
             "příroda"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/37.webp"
     },
     {
         "id": 38,
@@ -355,7 +392,8 @@
             "příroda",
             "kočky",
             "milé"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/38.webp"
     },
     {
         "id": 39,
@@ -364,7 +402,8 @@
         "tags": [
             "absurdní",
             "jídlo"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/39.webp"
     },
     {
         "id": 40,
@@ -373,7 +412,8 @@
         "tags": [
             "slovní hříčky",
             "láska"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/40.webp"
     },
     {
         "id": 41,
@@ -382,7 +422,8 @@
         "tags": [
             "abstraktní",
             "bez názvu"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/41.webp"
     },
     {
         "id": 42,
@@ -390,7 +431,8 @@
         "img": "/img/comics/42.jpg",
         "tags": [
             "absurdní"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/42.webp"
     },
     {
         "id": 43,
@@ -400,7 +442,8 @@
             "abstraktní",
             "bez názvu",
             "zvířata"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/43.webp"
     },
     {
         "id": 44,
@@ -409,7 +452,8 @@
         "tags": [
             "slovní hříčky",
             "umění"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/44.webp"
     },
     {
         "id": 45,
@@ -418,7 +462,8 @@
         "tags": [
             "slovní hříčky",
             "hudba"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/45.webp"
     },
     {
         "id": 46,
@@ -428,7 +473,8 @@
             "absurdní",
             "investiční příležitost",
             "jídlo"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/46.webp"
     },
     {
         "id": 47,
@@ -437,7 +483,8 @@
         "tags": [
             "abstraktní",
             "bez názvu"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/47.webp"
     },
     {
         "id": 48,
@@ -447,7 +494,8 @@
             "absurdní",
             "byznys",
             "jídlo"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/48.webp"
     },
     {
         "id": 49,
@@ -458,7 +506,8 @@
             "lékaři",
             "zdraví",
             "jídlo"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/49.webp"
     },
     {
         "id": 50,
@@ -467,7 +516,8 @@
         "tags": [
             "absurdní",
             "škola"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/50.webp"
     },
     {
         "id": 51,
@@ -478,7 +528,8 @@
             "děti",
             "jídlo",
             "restaurace"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/51.webp"
     },
     {
         "id": 52,
@@ -488,7 +539,8 @@
             "slovní hříčky",
             "zdraví",
             "létání"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/52.webp"
     },
     {
         "id": 53,
@@ -499,7 +551,8 @@
             "zvířata",
             "nesnáším když",
             "válka"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/53.webp"
     },
     {
         "id": 54,
@@ -508,7 +561,8 @@
         "tags": [
             "absurdní",
             "jídlo"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/54.webp"
     },
     {
         "id": 55,
@@ -517,7 +571,8 @@
         "tags": [
             "absurdní",
             "sport"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/55.webp"
     },
     {
         "id": 56,
@@ -528,7 +583,8 @@
             "absurdní",
             "jídlo",
             "restaurace"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/56.webp"
     },
     {
         "id": 57,
@@ -538,7 +594,8 @@
             "slovní hříčky",
             "jídlo",
             "knedlíky"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/57.webp"
     },
     {
         "id": 58,
@@ -547,7 +604,8 @@
         "tags": [
             "absurdní",
             "jídlo"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/58.webp"
     },
     {
         "id": 59,
@@ -557,7 +615,8 @@
             "slovní hříčky",
             "děti",
             "jídlo"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/59.webp"
     },
     {
         "id": 60,
@@ -565,7 +624,8 @@
         "img": "/img/comics/60.jpg",
         "tags": [
             "slovní hříčky"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/60.webp"
     },
     {
         "id": 61,
@@ -575,7 +635,8 @@
             "slovní hříčky",
             "příběhy",
             "absurdní"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/61.webp"
     },
     {
         "id": 62,
@@ -584,7 +645,8 @@
         "tags": [
             "slovní hříčky",
             "absurdní"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/62.webp"
     },
     {
         "id": 63,
@@ -592,7 +654,8 @@
         "img": "/img/comics/63.jpg",
         "tags": [
             "slovní hříčky"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/63.webp"
     },
     {
         "id": 64,
@@ -602,7 +665,8 @@
             "slovní hříčky",
             "umění",
             "milé"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/64.webp"
     },
     {
         "id": 65,
@@ -611,7 +675,8 @@
         "tags": [
             "slovní hříčky",
             "absurdní"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/65.webp"
     },
     {
         "id": 66,
@@ -619,7 +684,8 @@
         "img": "/img/comics/66.jpg",
         "tags": [
             "slovní hříčky"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/66.webp"
     },
     {
         "id": 67,
@@ -627,7 +693,8 @@
         "img": "/img/comics/67.jpg",
         "tags": [
             "slovní hříčky"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/67.webp"
     },
     {
         "id": 68,
@@ -635,7 +702,8 @@
         "img": "/img/comics/68.jpg",
         "tags": [
             "absurdní"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/68.webp"
     },
     {
         "id": 69,
@@ -645,7 +713,8 @@
             "absurdní",
             "jídlo",
             "umění"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/69.webp"
     },
     {
         "id": 70,
@@ -655,7 +724,8 @@
             "slovní hříčky",
             "jídlo",
             "restaurace"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/70.webp"
     },
     {
         "id": 71,
@@ -664,7 +734,8 @@
         "tags": [
             "absurdní",
             "investiční příležitost"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/71.webp"
     },
     {
         "id": 72,
@@ -674,7 +745,8 @@
             "absurdní",
             "trapas",
             "nesnáším když"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/72.webp"
     },
     {
         "id": 73,
@@ -683,7 +755,8 @@
         "tags": [
             "slovní hříčky",
             "jídlo"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/73.webp"
     },
     {
         "id": 74,
@@ -692,7 +765,8 @@
         "tags": [
             "absurdní",
             "jídlo"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/74.webp"
     },
     {
         "id": 75,
@@ -701,7 +775,8 @@
         "tags": [
             "slovní hříčky",
             "umění"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/75.webp"
     },
     {
         "id": 76,
@@ -710,7 +785,8 @@
         "tags": [
             "slovní hříčky",
             "nesnáším když"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/76.webp"
     },
     {
         "id": 77,
@@ -719,7 +795,8 @@
         "tags": [
             "slovní hříčky",
             "jídlo"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/77.webp"
     },
     {
         "id": 78,
@@ -727,7 +804,8 @@
         "img": "/img/comics/78.jpg",
         "tags": [
             "jídlo"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/78.webp"
     },
     {
         "id": 79,
@@ -736,7 +814,8 @@
         "tags": [
             "slovní hříčky",
             "příroda"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/79.webp"
     },
     {
         "id": 80,
@@ -747,7 +826,8 @@
             "slovní hříčky",
             "lékaři",
             "zdraví"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/80.webp"
     },
     {
         "id": 81,
@@ -755,7 +835,8 @@
         "img": "/img/comics/81.jpg",
         "tags": [
             "pohádky"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/81.webp"
     },
     {
         "id": 82,
@@ -764,7 +845,8 @@
         "tags": [
             "abstraktní",
             "bez názvu"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/82.webp"
     },
     {
         "id": 83,
@@ -772,7 +854,8 @@
         "img": "/img/comics/83.jpg",
         "tags": [
             "absurdní"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/83.webp"
     },
     {
         "id": 84,
@@ -782,7 +865,8 @@
             "slovní hříčky",
             "historie",
             "česko"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/84.webp"
     },
     {
         "id": 85,
@@ -791,7 +875,8 @@
         "tags": [
             "slovní hříčky",
             "zvířata"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/85.webp"
     },
     {
         "id": 86,
@@ -801,7 +886,8 @@
             "slovní hříčky",
             "jídlo",
             "láska"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/86.webp"
     },
     {
         "id": 87,
@@ -811,7 +897,8 @@
             "slovní hříčky",
             "děti",
             "škola"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/87.webp"
     },
     {
         "id": 88,
@@ -820,7 +907,8 @@
         "tags": [
             "slovní hříčky",
             "historie"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/88.webp"
     },
     {
         "id": 89,
@@ -828,7 +916,8 @@
         "img": "/img/comics/89.jpg",
         "tags": [
             "slovní hříčky"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/89.webp"
     },
     {
         "id": 90,
@@ -837,7 +926,8 @@
         "tags": [
             "absurdní",
             "děti"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/90.webp"
     },
     {
         "id": 91,
@@ -846,7 +936,8 @@
         "tags": [
             "slovní hříčky",
             "byznys"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/91.webp"
     },
     {
         "id": 92,
@@ -856,7 +947,8 @@
             "slovní hříčky",
             "zvířata",
             "televize"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/92.webp"
     },
     {
         "id": 93,
@@ -865,7 +957,8 @@
         "tags": [
             "slovní hříčky",
             "děti"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/93.webp"
     },
     {
         "id": 94,
@@ -874,7 +967,8 @@
         "tags": [
             "slovní hříčky",
             "milé"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/94.webp"
     },
     {
         "id": 95,
@@ -884,7 +978,8 @@
             "absurdní",
             "investiční příležitost",
             "sport"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/95.webp"
     },
     {
         "id": 96,
@@ -892,7 +987,8 @@
         "img": "/img/comics/96.jpg",
         "tags": [
             "absurdní"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/96.webp"
     },
     {
         "id": 97,
@@ -900,7 +996,8 @@
         "img": "/img/comics/97.jpg",
         "tags": [
             "slovní hříčky"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/97.webp"
     },
     {
         "id": 98,
@@ -910,7 +1007,8 @@
             "písničky",
             "zvířata",
             "psi"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/98.webp"
     },
     {
         "id": 99,
@@ -921,7 +1019,8 @@
             "zvířata",
             "psi",
             "jídlo"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/99.webp"
     },
     {
         "id": 100,
@@ -932,7 +1031,8 @@
             "stovka",
             "absurdní",
             "létání"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/100.webp"
     },
     {
         "id": 101,
@@ -941,7 +1041,8 @@
         "tags": [
             "absurdní",
             "investiční příležitost"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/101.webp"
     },
     {
         "id": 102,
@@ -950,7 +1051,8 @@
         "tags": [
             "slovní hříčky",
             "příroda"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/102.webp"
     },
     {
         "id": 103,
@@ -959,7 +1061,8 @@
         "tags": [
             "absurdní",
             "létání"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/103.webp"
     },
     {
         "id": 104,
@@ -967,7 +1070,8 @@
         "img": "/img/comics/104.jpg",
         "tags": [
             "abstraktní"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/104.webp"
     },
     {
         "id": 105,
@@ -976,7 +1080,8 @@
         "tags": [
             "slovní hříčky",
             "byznys"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/105.webp"
     },
     {
         "id": 106,
@@ -985,7 +1090,8 @@
         "tags": [
             "slovní hříčky",
             "škola"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/106.webp"
     },
     {
         "id": 107,
@@ -994,7 +1100,8 @@
         "tags": [
             "slovní hříčky",
             "byznys"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/107.webp"
     },
     {
         "id": 108,
@@ -1003,7 +1110,8 @@
         "tags": [
             "slovní hříčky",
             "koně"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/108.webp"
     },
     {
         "id": 109,
@@ -1013,7 +1121,8 @@
             "děti",
             "milé",
             "koně"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/109.webp"
     },
     {
         "id": 110,
@@ -1023,7 +1132,8 @@
             "absurdní",
             "škola",
             "film"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/110.webp"
     },
     {
         "id": 111,
@@ -1034,7 +1144,8 @@
             "byznys",
             "slovní hříčky",
             "absurdní"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/111.webp"
     },
     {
         "id": 112,
@@ -1045,7 +1156,8 @@
             "historie",
             "česko",
             "koně"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/112.webp"
     },
     {
         "id": 113,
@@ -1053,13 +1165,15 @@
         "img": "/img/comics/113.jpg",
         "tags": [
             "slovní hříčky"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/113.webp"
     },
     {
         "id": 114,
         "title": "Zábavná vychytávka",
         "img": "/img/comics/114.jpg",
-        "tags": []
+        "tags": [],
+        "thumbnail": "/img/comics/thumbnails/114.webp"
     },
     {
         "id": 115,
@@ -1068,7 +1182,8 @@
         "tags": [
             "absurdní",
             "sport"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/115.webp"
     },
     {
         "id": 116,
@@ -1077,7 +1192,8 @@
         "tags": [
             "slovní hříčky",
             "jídlo"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/116.webp"
     },
     {
         "id": 117,
@@ -1085,13 +1201,15 @@
         "img": "/img/comics/117.jpg",
         "tags": [
             "televize"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/117.webp"
     },
     {
         "id": 118,
         "title": "Popularizace středy",
         "img": "/img/comics/118.jpg",
-        "tags": []
+        "tags": [],
+        "thumbnail": "/img/comics/thumbnails/118.webp"
     },
     {
         "id": 119,
@@ -1099,7 +1217,8 @@
         "img": "/img/comics/119.jpg",
         "tags": [
             "slovní hříčky"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/119.webp"
     },
     {
         "id": 120,
@@ -1109,7 +1228,8 @@
             "slovní hříčky",
             "lékaři",
             "zdraví"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/120.webp"
     },
     {
         "id": 121,
@@ -1119,7 +1239,8 @@
             "slovní hříčky",
             "byznys",
             "práce"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/121.webp"
     },
     {
         "id": 122,
@@ -1128,7 +1249,8 @@
         "tags": [
             "slovní hříčky",
             "příroda"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/122.webp"
     },
     {
         "id": 123,
@@ -1138,7 +1260,8 @@
             "slovní hříčky",
             "příroda",
             "zvířata"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/123.webp"
     },
     {
         "id": 124,
@@ -1147,7 +1270,8 @@
         "tags": [
             "slovní hříčky",
             "válka"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/124.webp"
     },
     {
         "id": 125,
@@ -1156,7 +1280,8 @@
         "tags": [
             "slovní hříčky",
             "láska"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/125.webp"
     },
     {
         "id": 126,
@@ -1165,7 +1290,8 @@
         "tags": [
             "slovní hříčky",
             "investiční příležitost"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/126.webp"
     },
     {
         "id": 127,
@@ -1174,7 +1300,8 @@
         "tags": [
             "slovní hříčky",
             "bible"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/127.webp"
     },
     {
         "id": 128,
@@ -1184,7 +1311,8 @@
             "slovní hříčky",
             "byznys",
             "práce"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/128.webp"
     },
     {
         "id": 129,
@@ -1195,7 +1323,8 @@
             "hudba",
             "škola",
             "celebrity"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/129.webp"
     },
     {
         "id": 130,
@@ -1203,7 +1332,8 @@
         "img": "/img/comics/130.jpg",
         "tags": [
             "slovní hříčky"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/130.webp"
     },
     {
         "id": 131,
@@ -1214,7 +1344,8 @@
             "svátky",
             "děti",
             "jídlo"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/131.webp"
     },
     {
         "id": 132,
@@ -1224,7 +1355,8 @@
             "slovní hříčky",
             "děti",
             "milé"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/132.webp"
     },
     {
         "id": 133,
@@ -1233,7 +1365,8 @@
         "tags": [
             "slovní hříčky",
             "celebrity"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/133.webp"
     },
     {
         "id": 134,
@@ -1242,7 +1375,8 @@
         "tags": [
             "absurdní",
             "psi"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/134.webp"
     },
     {
         "id": 135,
@@ -1250,7 +1384,8 @@
         "img": "/img/comics/135.jpg",
         "tags": [
             "byznys"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/135.webp"
     },
     {
         "id": 136,
@@ -1262,7 +1397,8 @@
             "televize",
             "pohádky",
             "láska"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/136.webp"
     },
     {
         "id": 137,
@@ -1272,7 +1408,8 @@
             "slovní hříčky",
             "svátky",
             "zvířata"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/137.webp"
     },
     {
         "id": 138,
@@ -1283,7 +1420,8 @@
             "písničky",
             "láska",
             "zvířata"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/138.webp"
     },
     {
         "id": 139,
@@ -1292,7 +1430,8 @@
         "tags": [
             "slovní hříčky",
             "byznys"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/139.webp"
     },
     {
         "id": 140,
@@ -1301,7 +1440,8 @@
         "tags": [
             "slovní hříčky",
             "investiční příležitost"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/140.webp"
     },
     {
         "id": 141,
@@ -1309,7 +1449,8 @@
         "img": "/img/comics/141.jpg",
         "tags": [
             "slovní hříčky"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/141.webp"
     },
     {
         "id": 142,
@@ -1318,7 +1459,8 @@
         "tags": [
             "slovní hříčky",
             "škola"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/142.webp"
     },
     {
         "id": 143,
@@ -1327,7 +1469,8 @@
         "tags": [
             "absurdní",
             "investiční příležitost"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/143.webp"
     },
     {
         "id": 144,
@@ -1336,7 +1479,8 @@
         "tags": [
             "absurdní",
             "psi"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/144.webp"
     },
     {
         "id": 145,
@@ -1345,7 +1489,8 @@
         "tags": [
             "absurdní",
             "sport"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/145.webp"
     },
     {
         "id": 146,
@@ -1354,7 +1499,8 @@
         "tags": [
             "slovní hříčky",
             "historie"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/146.webp"
     },
     {
         "id": 147,
@@ -1364,7 +1510,8 @@
             "absurdní",
             "celebrity",
             "hudba"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/147.webp"
     },
     {
         "id": 148,
@@ -1373,7 +1520,8 @@
         "tags": [
             "slovní hříčky",
             "sport"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/148.webp"
     },
     {
         "id": 149,
@@ -1383,7 +1531,8 @@
             "slovní hříčky",
             "škola",
             "absurdní"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/149.webp"
     },
     {
         "id": 150,
@@ -1391,7 +1540,8 @@
         "img": "/img/comics/150.jpg",
         "tags": [
             "slovní hříčky"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/150.webp"
     },
     {
         "id": 151,
@@ -1400,7 +1550,8 @@
         "tags": [
             "slovní hříčky",
             "umění"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/151.webp"
     },
     {
         "id": 152,
@@ -1410,7 +1561,8 @@
             "příběhy",
             "absurdní",
             "jídlo"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/152.webp"
     },
     {
         "id": 153,
@@ -1418,7 +1570,8 @@
         "img": "/img/comics/153.jpg",
         "tags": [
             "absurdní"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/153.webp"
     },
     {
         "id": 154,
@@ -1426,7 +1579,8 @@
         "img": "/img/comics/154.jpg",
         "tags": [
             "slovní hříčky"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/154.webp"
     },
     {
         "id": 155,
@@ -1435,7 +1589,8 @@
         "tags": [
             "absurdní",
             "restaurace"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/155.webp"
     },
     {
         "id": 156,
@@ -1443,7 +1598,8 @@
         "img": "/img/comics/156.jpg",
         "tags": [
             "absurdní"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/156.webp"
     },
     {
         "id": 157,
@@ -1453,7 +1609,8 @@
             "absurdní",
             "příběhy",
             "vesmír"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/157.webp"
     },
     {
         "id": 158,
@@ -1463,7 +1620,8 @@
             "slovní hříčky",
             "jídlo",
             "knedlíky"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/158.webp"
     },
     {
         "id": 159,
@@ -1473,7 +1631,8 @@
             "slovní hříčky",
             "škola",
             "láska"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/159.webp"
     },
     {
         "id": 160,
@@ -1482,7 +1641,8 @@
         "tags": [
             "absurdní",
             "škola"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/160.webp"
     },
     {
         "id": 161,
@@ -1490,7 +1650,8 @@
         "img": "/img/comics/161.jpg",
         "tags": [
             "slovní hříčky"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/161.webp"
     },
     {
         "id": 162,
@@ -1498,7 +1659,8 @@
         "img": "/img/comics/162.jpg",
         "tags": [
             "slovní hříčky"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/162.webp"
     },
     {
         "id": 163,
@@ -1507,7 +1669,8 @@
         "tags": [
             "absurdní",
             "jídlo"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/163.webp"
     },
     {
         "id": 164,
@@ -1517,7 +1680,8 @@
             "absurdní",
             "vesmír",
             "jídlo"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/164.webp"
     },
     {
         "id": 165,
@@ -1525,7 +1689,8 @@
         "img": "/img/comics/165.jpg",
         "tags": [
             "jídlo"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/165.webp"
     },
     {
         "id": 166,
@@ -1537,7 +1702,8 @@
             "hudba",
             "pohádky",
             "zvířata"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/166.webp"
     },
     {
         "id": 167,
@@ -1546,7 +1712,8 @@
         "tags": [
             "slovní hříčky",
             "láska"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/167.webp"
     },
     {
         "id": 168,
@@ -1555,7 +1722,8 @@
         "tags": [
             "slovní hříčky",
             "zvířata"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/168.webp"
     },
     {
         "id": 169,
@@ -1563,7 +1731,8 @@
         "img": "/img/comics/169.jpg",
         "tags": [
             "slovní hříčky"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/169.webp"
     },
     {
         "id": 170,
@@ -1573,7 +1742,8 @@
             "slovní hříčky",
             "zvířata",
             "film"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/170.webp"
     },
     {
         "id": 171,
@@ -1581,7 +1751,8 @@
         "img": "/img/comics/171.jpg",
         "tags": [
             "slovní hříčky"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/171.webp"
     },
     {
         "id": 172,
@@ -1592,7 +1763,8 @@
             "historie",
             "česko",
             "svátky"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/172.webp"
     },
     {
         "id": 173,
@@ -1603,7 +1775,8 @@
             "historie",
             "česko",
             "svátky"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/173.webp"
     },
     {
         "id": 174,
@@ -1611,6 +1784,7 @@
         "img": "/img/comics/174.jpg",
         "tags": [
             "slovní hříčky"
-        ]
+        ],
+        "thumbnail": "/img/comics/thumbnails/174.webp"
     }
 ]
