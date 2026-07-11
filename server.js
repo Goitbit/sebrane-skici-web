@@ -92,6 +92,34 @@ app.get("/contact", (req, res) => {
 
 });
 
+// ==============================================
+// Sitemapa
+// ===============================================
+app.get("/sitemap.xml", (req, res) => {
+    res.header('Content-Type', 'application/xml');
+
+    let xml = `<?xml version="1.0" encoding="UTF-8"?>\n`;
+    xml += `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n`;
+    
+    //Homepage
+    xml += `  <url><loc>https://www.sebraneskici.cz/</loc><priority>1.0</priority></url>\n`;   
+    //Kontakty
+    xml += `  <url><loc>https://www.sebraneskici.cz/contact</loc><priority>0.5</priority></url>\n`;
+    //Archive
+    xml += `  <url><loc>https://www.sebraneskici.cz/archive</loc><priority>0.8</priority></url>\n`;    
+    
+    // Každý komiks
+    skici.forEach(skica => {
+        xml += `  <url>\n`;
+        xml += `    <loc>https://www.sebraneskici.cz/${skica.id}</loc>\n`;
+        xml += `    <priority>0.7</priority>\n`;
+        xml += `  </url>\n`;
+    });
+    
+    xml += `</urlset>`;
+    res.send(xml);
+});
+
 // ==========================================
 // Detail komiksu
 // ==========================================
