@@ -25,6 +25,14 @@
 
 </div>
 
+<div class="sortBar">
+    <label for="sortSelect">Seřadit podle:</label>
+    <select id="sortSelect">
+        <option value="desc">Nejnovější prvotně</option>
+        <option value="asc">Nejstarší prvotně</option>
+    </select>
+</div>
+
 <div id="resultsCount" class="results-count"></div>
 
 <div id="skicaList">
@@ -264,6 +272,40 @@ function updateGrid() {
     });
   });
 
+// --- DOM ELEMENT PRO SEŘAZENÍ ---
+  const sortSelect = document.getElementById('sortSelect');
+
+  // --- HLAVNÍ FUNKCE PRO SEŘAZENÍ ---
+  function sortGrid() {
+    const isAscending = sortSelect ? sortSelect.value === 'asc' : false;
+    const skicaListEm = document.querySelector('.skicaList');
+    if (!skicaListEm) return;
+
+    // Najdeme všechny skica prvky v DOMu
+    const htmlSkici = Array.from(skicaListEm.querySelectorAll('.js-skica-item'));
+
+    // Seřadíme pole HTML prvků podle ID (případně podle data-id)
+    htmlSkici.sort((a, b) => {
+      // Předpokládáme, že ID skici je v data-id (např. data-id="174")
+      // Pokud data-id nemáš, vytáhneme ho z atributu href nebo datasetu
+      const idA = parseInt(a.dataset.id || a.querySelector('a')?.getAttribute('href')?.replace('/', '') || 0);
+      const idB = parseInt(b.dataset.id || b.querySelector('a')?.getAttribute('href')?.replace('/', '') || 0);
+
+      return isAscending ? idA - idB : idB - idA;
+    });
+
+    // Znovu je vložíme do kontejneru v novém pořadí (append přesune existující prvky)
+    htmlSkici.forEach(element => skicaListEm.appendChild(element));
+  }
+
+  // --- EVENT LISTENER PRO ZMĚNU ŘAZENÍ ---
+  if (sortSelect) {
+    sortSelect.addEventListener('change', () => {
+      sortGrid();
+      updateGrid(); // Obnoví případně správnou hlášku "Nic nenalezeno" pod seznamem
+    });
+  }  
+
 // --- NAČTENÍ PARAMETRŮ Z URL ADRESY
   const urlParams = new URLSearchParams(window.location.search);
   const tagZUrl = urlParams.get('tag'); // Vytáhne hodnotu parametru ?tag=...
@@ -276,6 +318,7 @@ function updateGrid() {
     }
   }
 
-  // INICIALIZACE PŘI NAČTENÍ (Tohle už v kódu máš, jen to bude pod tím)
+  // INICIALIZACE PŘI NAČTENÍ
+  sortGrid();
   renderChips();
 </script>

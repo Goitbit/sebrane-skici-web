@@ -104,7 +104,7 @@ app.get("/sitemap.xml", (req, res) => {
     //Homepage
     xml += `  <url><loc>https://www.sebraneskici.cz/</loc><priority>1.0</priority></url>\n`;   
     //Kontakty
-    xml += `  <url><loc>https://www.sebraneskici.cz/contact</loc><priority>0.5</priority></url>\n`;
+    xml += `  <url><loc>https://www.sebraneskici.cz/contact</loc><priority>0.</priority></url>\n`;
     //Archive
     xml += `  <url><loc>https://www.sebraneskici.cz/archive</loc><priority>0.8</priority></url>\n`;    
     
@@ -164,14 +164,6 @@ app.use((req, res) => {
 
 });
 
-
-// ==========================================
-// Start serveru
-// ==========================================
-
-app.listen(PORT, () => {
-    console.log(`Running on http://localhost:${PORT}`);
-});
 
 
 
@@ -287,6 +279,6 @@ app.use((req, res) => {
 // Start serveru
 // ==========================================
 
-app.listen(PORT, "0.0.0.0", function () {
-  // ...
+app.listen(3000, '0.0.0.0', () => {
+    console.log('Server garantovaně běží na 0.0.0.0:3000');
 });
